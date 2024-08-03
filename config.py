@@ -23,7 +23,7 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME 🌺</b>\n{upti
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʙʀᴜʜ ᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ sᴇɴᴘᴀɪ!!")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7210003409:AAG2xwaXuShbmnbEtFqM4TCeVQqE_PMMryg") 
 #your api id from https://my.telegram.org/apps
 APP_ID = int(os.environ.get("APP_ID", ""))
 #your api hash from https://my.telegram.org/apps
@@ -33,11 +33,11 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 #your database channel link
 CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7063698506"))
 #port set to default 8080
 PORT = os.environ.get("PORT", "8080")
 #your database url mongodb only You can use mongo atlas free cloud database
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://lavda:lassan@cluster0.9uhmlry.mongodb.net/")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://dipeshsoubodh:eNhZ54HX42EBalDU@cluster0.cq2tr9i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #your database name
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
