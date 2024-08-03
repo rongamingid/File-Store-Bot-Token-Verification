@@ -25,13 +25,13 @@ USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʙʀᴜʜ ᴜ ᴀʀᴇ ɴ�
 #your bot token here from https://telegram.me/BotFather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7210003409:AAG2xwaXuShbmnbEtFqM4TCeVQqE_PMMryg") 
 #your api id from https://my.telegram.org/apps
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "21863423"))
 #your api hash from https://my.telegram.org/apps
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "ee4f76b8804cbd72207bf3118d589dc5")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002025658212"))
 #your database channel link
-CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "")
+CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "https://t.me/+YHIW1NxVTBtjYTQ1")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "7063698506"))
 #port set to default 8080
