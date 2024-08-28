@@ -3,13 +3,13 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7057888802:AAEvFAO4WXZZ4S23dTjDbltk8KqF2b3l6uE")
+APP_ID = int(os.environ.get("APP_ID", "25282308"))
+API_HASH = os.environ.get("API_HASH", "3f5c041738ce25f3942e59e809ab838a")
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001819373091"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6497757690"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6826356197"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
@@ -33,7 +33,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}, Thanks for using me :D @team_netflix ⚡️.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6497757690").split()):
+    for x in (os.environ.get("ADMINS", "6826356197").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -45,7 +45,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊ�
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @codeflix_bots</b>")
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
